@@ -27,6 +27,7 @@ section {
   padding: 10px 40px;
   border-radius: 5px;
   font-weight: 900;
+  cursor: pointer;
 }
 .btn-hire-me:hover {
   background: black;
