@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 h1 {
   font-size: 50px;
@@ -14,7 +15,7 @@ section {
   font-size: 20px;
 }
 .half-width {
-  width: 70%;
+  width: 50%;
   padding: 3%;
 }
 .half-width img {
@@ -22,15 +23,20 @@ section {
 }
 .btn-hire-me {
   text-decoration: none;
-  background: linear-gradient(45deg, lightsalmon, tomato);
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
   margin-top: 20px;
   padding: 10px 40px;
   border-radius: 5px;
-  font-weight: 900;
+  font-weight: 700;
+  font-size: 16px;
   cursor: pointer;
 }
 .btn-hire-me:hover {
   background: black;
   color: orange;
   border: 2px solid orange;
+}
+.top-banner{
+  background-image: url(main-pics/top-banner.png);
+  background-repeat: no-repeat;
 }
